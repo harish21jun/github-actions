@@ -14,7 +14,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<app.runtime>4.4.0</app.runtime>
-		<mule.maven.plugin.version>3.8.0</mule.maven.plugin.version>
+		<mule.maven.plugin.version>4.0.0</mule.maven.plugin.version>
 		<app.name>hkdew-github-actions</app.name>
 		<env>dev</env>
 		<munit.version>2.3.13</munit.version>
@@ -77,7 +77,7 @@
 						<runCoverage>true</runCoverage>
 						<!-- START: MUnit coverage -->
 						<failBuild>true</failBuild>
-    					<requiredApplicationCoverage>90</requiredApplicationCoverage>
+						<requiredApplicationCoverage>90</requiredApplicationCoverage>
 						<!-- <requiredResourceCoverage>50</requiredResourceCoverage> -->
 						<!-- <requiredFlowCoverage>50</requiredFlowCoverage> -->
 						<!-- END: MUnit coverage -->
